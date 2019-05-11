@@ -1,13 +1,17 @@
-import React, { Component } from 'react'
-
-import ExampleComponent from 'react-pseudostyler'
+import React, { Component } from 'react';
+import PseudoStyler from 'react-pseudostyler';
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
-    )
+      <PseudoStyler
+        selector=":hover"
+        target={({ getByText }) => getByText(/I have hover styles!/i)}
+      >
+        <div id="test" class="yellow">
+          <div id="thing">hi</div>
+        </div>
+      </PseudoStyler>
+    );
   }
 }
