@@ -8,7 +8,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-pseudostyler": "^1.0.0",
+    "react-pseudostyler": "^1.0.1",
     "react-scripts": "^1.1.4",
     "react-testing-library": "^7.0.0"
   },
