@@ -1,6 +1,6 @@
 {
   "name": "react-pseudostyler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Allows a React component to be rendered with pseudo-class styles applied",
   "author": "CraigCav",
   "license": "MIT",
