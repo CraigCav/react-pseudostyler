@@ -15,6 +15,6 @@ body {
   border: 2px solid red;
 }
 
-#test.yellow:hover {
+#test.yellowOnHover:hover {
   background: yellow;
 }

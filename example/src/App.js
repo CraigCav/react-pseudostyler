@@ -8,8 +8,8 @@ export default class App extends Component {
         selector=":hover"
         target={({ getByText }) => getByText(/I have hover styles!/i)}
       >
-        <div id="test" class="yellow">
-          <div id="thing">hi</div>
+        <div id="test" className="yellowOnHover">
+          <div id="thing">I have hover styles!</div>
         </div>
       </PseudoStyler>
     );
